@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale =1">
+    <link rel="icon" href="images/logo_icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Projects</title>
+</head>
+<body class = "aurora">
+  <a class = "skip" href="#skip" >Skip to Main Content</a>
+  <header>
+    <p id = "myname">Adam Mentzer</p>
+    <!-- add your personal image above -->
+    <nav>
+      <ul class="nav_links">
+        <li class="nav_item"><a href="index.html">Home</a></li>
+        <li class="nav_item"><a href="aboutme.html">About</a></li>
+        <li class="nav_item uppercase"><a href="newprojects.html">Projects</a></li>
+        <li class="nav_item"><a href="resume.html"> Resumé</a></li>
+        <li class="nav_item"><a href="misc.html">Miscellaneous</a></li>
+      </ul>
+  </nav>
+</header>
+  <main>
+ 
+  <h1>Personal Projects</h1>
+  <h2>Additionally, here are my projects for classes like <a href="280.html" class = "whitelink">EECS 280</a> and 
+    <a href="281.html" class = "whitelink">EECS 281</a></h2>
+  <div class = "container">
+
+    <div class = "grid-title">
+      <h2 id = "#skip">UX Analysis - Slack</h2>
+    </div>
+    <div class = "grid-img">
+      <img src="images/slacklogo.png" alt="slack logo" />
+    </div>
+    <div class = "grid-desc">
+      <p>One of my assignments for SI 110 was to do a design analysis of a website, mobile 	application, 
+        or social media platform with respect to Jakob Nielsen’s 10 Heuristics for User Experience Design. 
+        I chose to review the desktop version of Slack. 
+        As the  pandemic necessitated heavy Slack use, I had curated a list of inadequacies (at least by my standards) in 
+         its interface and was eager to showcase what I’d learned thus far in the class. 
+         My main complaint was that it lacked a “landing page” for the user, as it instead constantly 
+         forces the user to be in one of their workspaces. In other words, 
+         there are no spaces for the user to have a high-level overview of their 
+         groups or for them to “crash land” should they lose their place in the application’s interface.
+          Among my other concerns were that some of the icons don’t represent what you would conventionally expect them to, 
+          the tendency for the screen to get cluttered with information, and that Slack seemed to cater towards power 
+          users rather than the average person.  </p>
+    </div>
+
+    <div class = "grid-title">
+      <h2 id = "skip">Chlarity</h2>
+    </div>
+    <div class = "grid-img">
+      <img src="images/chlarityimage.png" alt="chalrity mockup" />
+    </div>
+    <div class = "grid-desc">
+      <p>One of my first classes at the University of Michigan was History 195, 
+        a writing  class that examined global humanitarianism in
+         the modern era. Among the required  
+         readings was Anand Giridharadas’ <i>Winners Take All: 
+         The Elite Charade of Changing the World</i>, about
+        NGOs that would intentionally do ineffectual or self-serving
+          work to perpetuate the plight of the needy so that they could continue to profit off of them. 
+          <br>
+          <br>
+        Discerning between organizations that follow through on their promises and 
+        those that don’t is a difficult task, so when a couple of friends and 
+        I were assigned a project where we were supposed to solve an issue, 
+        this seemed like a natural fit. Our solution was to create an app (Chlarity) 
+        that would allow organizations that DO honor their promises to more 
+        intricately display where their funding goes. 
+        That way, they could build consumer trust and promote their brand. 
+        Organizations would sign on as partners, and then get direct access to 
+        their target audience as well as other organizations for collaboration.
+    </div>
+
+    <div class = "grid-title">
+      <h2>Event Seating</h2>
+    </div>
+    <div class = "grid-img">
+      <img src="images/sample1.png" alt="sample output of program" />
+    </div>
+    <div class = "grid-desc">
+      <p>At my cousin’s wedding reception this past July, I was looking around at all of the 	tables trying to figure out if there was any rhyme or reason to the seating arrangements.  	
+        Some tables were completely full (or even overfilled), 
+        while others had plenty of vacant seats. 
+        When she came around to my family’s table, I asked my cousin how she had arranged all of us. 
+        She said that she and my new cousin-in-law had done the seating by hand, and that it was a 
+        massive pain to take into account the different groups of people as well as the number of chairs/tables available to them. 
+        Wanting to brush up on my Python skills, I decided that I’d make a tool for creating seating arrangements with 
+        groups manually inputted by the user. The user could optimize for a given number of chairs at each table,
+        finding how many people should be seated with a given number of tables, have the program determine how many chairs/tables are needed based on the average group size,
+        letting each larger-than-average group get its own table, even though this increases the amount of empty seats. The program was designed so 
+      that the number of open seats at each table was minimized and so that as few groups as 
+      possible needed special accommodation (for each user preference).
+      <br>
+      <br>
+      Having furthered my education since creating this project, I am currently working 
+      on implementing disjoint sets to make sure that only people who know each other 
+      (e.g. bride’s family/groom’s family) are seated together.</p>
+    </div>
+
+    <div class = "grid-title">
+      <h2>Boredom Fighter</h2>
+    </div>
+    <div class = "grid-img-bored">
+      <img src="images/swift1.png" alt="the app while running" />
+    </div>
+    <div class = "grid-desc">
+      <p> Like a lot of people, I hate being bored and feeling stagnant. Even when I have free time, I often face a lapse in creativity or decision paralysis where I feel like I just can’t find something to do. After describing this problem to a friend, they referenced <a href = "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0220736" style = "color: white;">this study about external reinforcement in decision making </a> 
+        and how it helped them make their own decisions. 
+        Knowing this, I resolved to create an app that would TELL me what to do when I was 
+        bored rather than having to come up with something myself. 
+        Because it wasn’t my own idea to shoot down, it was harder to refuse. 
+      <br>
+      <br>
+        Aside from the reasons above, the purpose of this project was to introduce myself to Swift and 
+        SwiftUI for iOS development. 
+        The app itself works by taking user-defined parameters 
+        such as number of people, budget, and the amount of time allotted for 
+        the activity and randomly picks an activity that matches that criteria.</p>
+    </div>
+    
+
+  </div>
+  
+</main> 
+<footer>
+  <p class = "footerp"> Made in A² 
+     </p>
+</footer>
+</body> 
+
+</html>
